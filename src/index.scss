@@ -1,0 +1,9 @@
+@import './styles/fonts';
+@import './styles/reset';
+
+body {
+  margin: 0;
+  font-family: "LabGrotesqueO-Regular", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
