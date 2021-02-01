@@ -1,0 +1,15 @@
+.pinButton {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    img {
+      filter: brightness(70%);
+    }
+  }
+}

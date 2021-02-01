@@ -1,0 +1,15 @@
+.moreButton {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+
+  &:hover {
+    cursor: pointer;
+    img {
+      filter: brightness(70%);
+    }
+  }
+}

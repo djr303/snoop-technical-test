@@ -1,0 +1,37 @@
+.hero {
+  width: 630px;
+  height: 470px;
+  position: relative;
+
+  &.heroLeft {
+    background: url("./../../images/hero-rain.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+  }
+
+  &.heroRight {
+    background: url("./../../images/hero-umbrella.jpg") no-repeat;
+    background-size: 160%;
+    background-position: -2px -236px;
+  }
+
+  @media screen and (max-width: 678px) {
+    &.heroRight {
+      background-size: auto;
+      background-position: center center;
+    }
+  }
+
+  @media screen and (max-width: 678px) {
+    &.heroLeft {
+      background-size:auto;
+      background-position: center center;
+    }
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .hero {
+    width: 100%;
+  }
+}

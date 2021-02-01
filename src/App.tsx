@@ -10,7 +10,7 @@ import { Paths } from './common/constants'
 import { Container } from "@material-ui/core";
 
 const App: React.FC = () => (
-  <Container maxWidth={false}>
+  <>
     <Router>
       <Header />
       <Navigation />
@@ -20,7 +20,7 @@ const App: React.FC = () => (
         <Route exact path={Paths.Browse} component={Browse} />
       </Switch>
     </Router>
-  </Container>
+  </>
 );
 
 export default App;

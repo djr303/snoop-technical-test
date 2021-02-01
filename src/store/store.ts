@@ -1,21 +1,39 @@
-/* import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import { pinnedReducer, snoopsReducer } from "./reducers";
 
-export const store = configureStore({
+export enum Domain {
+  Finances = "finances",
+  Shopping = "shopping",
+  MoneyInsight = "moneyInsight",
+  Entertainment = "entertainment",
+}
+
+export enum DisplayType {
+  HeroRight = "heroRight",
+  HeroLeft = "heroLeft",
+  Standard = "standard",
+}
+
+export type Snoop = {
+  id: number;
+  domain: Domain;
+  header: string;
+  body: string;
+  displayType: DisplayType;
+};
+
+export type Snoops = Snoop[];
+
+export type RootState = {
+  snoops: Snoops;
+  pinnedSnoops: number[];
+};
+
+export const store = configureStore<RootState>({
   reducer: {
-    counter: counterReducer,
+    snoops: snoopsReducer,
+    pinnedSnoops: pinnedReducer,
   },
 });
 
-export type RootState = ReturnType<typeof store.getState>;
-export type AppThunk<ReturnType = void> = ThunkAction<
-  ReturnType,
-  RootState,
-  unknown,
-  Action<string>
->;
- */
-
-const store = {}
-
-export default store
+export default store;

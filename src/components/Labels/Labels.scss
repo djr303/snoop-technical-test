@@ -1,0 +1,32 @@
+@import "../../styles/colors";
+
+.label {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        padding: 0 10px 0 0;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .green {
+        color: $green;
+    }
+
+    .aqua {
+        color: $aqua;
+    }
+
+    .aquaDark {
+        color: $aqua-dark
+    }
+
+    .charcoal {
+        color: $charcoal;
+    }
+}

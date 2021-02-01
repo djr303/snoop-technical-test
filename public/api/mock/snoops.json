@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "domain": "finances",
+        "header": "Ut aliquet pellentesque ex, vel tempor nulla. Maecenas.",
+        "body": "Fusce aliquet, massa maximus viverra tincidunt, mauris erat cursus elit, sed commodo quam tellus et tellus. Mauris scelerisque risus lorem, sed volutpat odio dictum a. Suspendisse ullamcorper eget urna in sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos",
+        "displayType": "heroRight"
+    },
+    {
+        "id": 2,
+        "domain": "shopping",
+        "header": "Nunc non rhoncus eros. Aliquam pretium iaculis dolor.",
+        "body": "Nunc lobortis, nisl at ornare vehicula, ex velit eleifend tellus, id pulvinar eros erat sit amet risus. Aliquam erat volutpat. Etiam consequat massa ac erat rhoncus, malesuada facilisis diam imperdiet. Curabitur lobortis venenatis ante, id fermentum risus iaculis a. Proin porta est a ligula pharetra, sit amet luctus arcu malesuada. Nunc efficitur quam et tristique aliquam. ",
+        "displayType": "standard"
+    },
+    {
+        "id": 3,
+        "domain": "finances",
+        "header": "Quisque a convallis turpis, eu.",
+        "body": "Cras tempus sapien vel velit cursus, eu sagittis ante fringilla. Sed odio quam, ornare feugiat tellus sit amet, congue vulputate neque. Fusce ex dui, rutrum in lorem vestibulum, venenatis consectetur orci. Nulla et dolor tempus odio faucibus pharetra vitae vehicula leo. Quisque eget vehicula metus. Vestibulum eu risus sit amet erat eleifend vulputate.",
+        "displayType": "standard"
+    },
+    {
+        "id": 4,
+        "domain": "moneyInsight",
+        "header": "Donec finibus porta odio, porta eget.",
+        "body": "Nulla fermentum iaculis luctus. Integer dictum quam lectus, sit amet ullamcorper elit tempus cursus. Curabitur vel aliquam lectus. Aenean in augue in augue pharetra bibendum. Maecenas nec rhoncus arcu. Donec ut dui nec tortor mattis fermentum. Sed in quam ex. Sed lacinia egestas lacus, ac vehicula ex.",
+        "displayType": "standard"
+    },
+    {
+        "id": 5,
+        "domain": "finances",
+        "header": "Morbi lobortis ornare ligula in bibendum. Donec interdum.",
+        "body": "In vestibulum magna eu aliquet consectetur. Curabitur semper sem non odio rutrum, nec faucibus tellus sollicitudin. Aliquam vitae lorem non sapien laoreet tincidunt ac a odio. Praesent feugiat non leo sed dignissim. Aliquam condimentum hendrerit quam, tempus efficitur velit. In consequat cursus est, vel pellentesque ex vehicula eget. ",
+        "displayType": "standard"
+    },
+    {
+        "id": 6,
+        "domain": "entertainment",
+        "header": "Aenean malesuada, est at tincidunt bibendum, metus dolor vulputate nulla.",
+        "body": "Praesent mattis sapien purus, non rhoncus nunc ultricies a. Sed sed ipsum facilisis, tristique diam ut, eleifend ante. Curabitur placerat sagittis tortor ac mattis. Maecenas lobortis enim tincidunt hendrerit lobortis. Mauris tincidunt eget felis eget congue. Nam bibendum, est eget aliquam imperdiet, tellus mi placerat eros, a cursus urna sem ac velit.",
+        "displayType": "heroLeft"
+    }
+]

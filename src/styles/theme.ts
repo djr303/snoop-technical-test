@@ -44,6 +44,9 @@ const theme = createMuiTheme({
       dark: colors.hotCoral,
       contrastText: colors.white,
     },
+    secondary: {
+      main: colors.blueViolet,
+    }
   },
   shape: {
     borderRadius: 30,
